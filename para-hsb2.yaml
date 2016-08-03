@@ -1,0 +1,28 @@
+FilePath:
+    .\\hsb2.csv
+HasHeader:
+    Yes
+Separater:
+    ','
+NumericalColumns:
+    - math
+    - read
+    - write
+    - socst
+CategoricalColumns:
+    - female
+    - race
+    - ses
+    - schtyp
+    - prog
+Features:
+    - female
+    - race
+    - ses
+    - schtyp
+    - prog
+    - read
+    - write
+    - socst
+Target:
+    ses

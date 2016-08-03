@@ -1,0 +1,10 @@
+FilePath:
+    .\\adult.data
+HasHeader:
+    Yes
+Separater:
+    ','
+Target:
+    income
+LogFilePath:
+    .\\log.r

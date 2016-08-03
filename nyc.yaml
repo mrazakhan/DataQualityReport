@@ -1,0 +1,35 @@
+FilePath:
+    .\\ny.csv
+#DataSource:
+#    SQLServer
+Server:
+    deyrl0lfcu.database.windows.net
+Database:
+    SQLDWCDSP
+Query:
+    select top 10000 * from nyctaxinb.nyctaxi
+Username:
+    datascience
+Password:
+    D@tascientist
+Target:
+    tipped
+CategoricalColumns:
+    - vendor_id
+    - rate_code
+    - store_and_fwd_flag
+    - payment_type
+    - tipped
+NumericalColumns:
+    - passenger_count
+    - trip_time_in_secs
+    - trip_distance
+    - fare_amount
+    - surcharge
+    - mta_tax
+    - total_amount
+ColumnsToExclude:
+    - tip_class
+    - tip_amount
+RLogFilePath:
+    nyctaxi.log.r
